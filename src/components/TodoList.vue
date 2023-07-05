@@ -238,7 +238,8 @@ section {
         justify-content: space-between;
 
         .close-btn {
-          position: relative;
+          right: 35px;
+          position: absolute;
 
           width: 20px;
 
