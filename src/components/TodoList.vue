@@ -142,7 +142,7 @@ section {
   align-items: flex-start;
   justify-content: space-between;
 
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 660px) {
     align-items: center;
     flex-direction: column;
   }
@@ -150,7 +150,7 @@ section {
   .todo + .todo {
     margin: 0 0 0 20px;
 
-    @media screen and (max-width: 540px) {
+    @media screen and (max-width: 660px) {
       margin: 20px 0 0 0;
     }
   }
@@ -173,8 +173,9 @@ section {
 
     padding: 70px 20px 40px 20px;
 
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 660px) {
       max-height: auto;
+      min-height: auto;
     }
 
     @media screen and (max-width: 300px) {
@@ -192,6 +193,9 @@ section {
 
       h2 {
         text-transform: uppercase;
+        @media screen and (max-width: 280px) {
+          font-size: 20px;
+        }
       }
 
       hr {
@@ -214,7 +218,7 @@ section {
       overflow-y: scroll;
       overflow-x: hidden;
 
-      @media screen and (max-width: 640px) {
+      @media screen and (max-width: 660px) {
         overflow-y: hidden;
       }
 
@@ -265,6 +269,10 @@ section {
           font-size: 20px;
 
           margin: 0;
+
+          @media screen and (max-width: 280px) {
+            font-size: 18px;
+          }
 
           span {
             display: block;
