@@ -231,6 +231,8 @@ section {
         border-radius: 12px;
         background-color: $li-color;
 
+        overflow: scroll;
+
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
